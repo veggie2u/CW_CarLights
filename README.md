@@ -21,3 +21,6 @@ lights over I2C.
 The example shows how to use the library. This library would be on the main Arduino that
 is your robot brain. It is assumed that this Arduino has more going on and you would want
 a simple way to send commands to your lighting Arduino, so the send code is a library.
+
+## Resources
+The resources folder contains PNG images created in Fritzing of breadboard view and schematic view of hooking up the neo pixels and stuff.
