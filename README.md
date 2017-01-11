@@ -13,3 +13,11 @@ You simply need power to the trinket, power to the NeoPixels, and a single pin f
 This setup is a bit flixible. It was meant to control a pair of head lights, and a pair of tail lights. I used the Adafruit Jewel for the headlights, and a pair of NeoPixel Mini PCB's for the tail lights.
 
 The NeoPixels are numbered beginning with the first in the chain. You can set the start/end of each light in the sketch if you use different amounts of NeoPixels in your design.
+
+## CW_Carlights_Send
+CW_CarLights_Send.ino - Sketch using the CW_CarLights_Send library for controlling car
+lights over I2C.
+
+The example shows how to use the library. This library would be on the main Arduino that
+is your robot brain. It is assumed that this Arduino has more going on and you would want
+a simple way to send commands to your lighting Arduino, so the send code is a library.

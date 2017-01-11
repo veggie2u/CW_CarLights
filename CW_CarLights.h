@@ -8,7 +8,7 @@
   MIT License. See included License file.
 **********************************************************************/
 
-#ifdef CW_CarLights_h
+#ifndef CW_CarLights_h
 #define CW_CarLights_h
 #include "Arduino.h"
 
