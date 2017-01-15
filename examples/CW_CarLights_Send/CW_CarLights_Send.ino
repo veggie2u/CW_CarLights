@@ -18,7 +18,7 @@
 #endif
 
 // I2C device number you are sending to
-const byte device_no = 15;
+const byte device_no = 12;
 
 CW_CarLightsSend lights = CW_CarLightsSend(device_no);
 
